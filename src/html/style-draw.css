@@ -1,0 +1,261 @@
+body{
+    height:100vh;
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+.phone{
+    position: relative;
+    border: 8px solid black;
+    border-radius: 40px;
+    height: 600px;
+    width: 300px;
+    background-color: #ccefff;
+    box-shadow: 0px 19px 38px rgba(0, 0, 0, 0.5),
+                0px 15px 12px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+.layer-1{
+    position: absolute;
+    z-index: 1;
+    width: 80px;
+    height: 450px;
+    bottom: 0;
+    right: 60px;
+}
+.layer-2{
+    position: absolute;
+    z-index: 2;
+    width: 80px;
+    height: 450px;
+    bottom: 0;
+    left: 60px;
+}
+
+.layer-3{
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 220px;
+    height: 400px;
+    bottom: 0;
+    background-color: rgb(137,71,9);
+    border: 1px solid rgb(74, 35, 3);
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.layer-4{
+    position: absolute;
+    z-index: 4;
+    width: 80px;
+    height: 350px;
+    bottom: 0;
+    left: 20px;
+}
+.layer-5{
+    position: absolute;
+    z-index: 5;
+    width: 220px;
+    height: 300px;
+    bottom: 0;
+    background-color: rgb(137, 71, 9);
+    border: 1px solid rgb(74, 35, 3);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.layer-6{
+    position: absolute;
+    z-index: 6;
+    width: 80px;
+    height: 250px;
+    bottom: 0;
+    right: 25px;
+}
+.layer-7{
+    position: absolute;
+    z-index: 7;
+    width: 150px;
+    height: 200px;
+    bottom: 0;
+    right: 0;
+    background-color: rgb(137, 71, 9);
+    border: 1px solid rgb(74, 35, 3);
+    border-radius: 20px 20px 20px 0;
+    overflow: hidden;
+}
+.layer-8{
+    position: absolute;
+    z-index: 8;
+    width: 150px;
+    height: 70px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: rgb(11, 146, 9);
+    bottom: 0;
+}
+.layer-9{
+    position: absolute;
+    z-index: 9;
+    width: 120px;
+    height: 70px;
+    background-color:white;
+    bottom: 0;
+    border-radius: 0 40px 30px 0;
+
+}
+.layer-10{
+    position: absolute;
+    z-index: 10;
+    width: 120px;
+    height: 70px;
+    right: 0;
+    background-color:white;
+    bottom: 0;
+    border-radius: 40px 0 0 40px;
+}
+.left-ear--outer {
+    background-color:white;
+    border-radius: 90%;
+    width: 20px;
+    height: 50px;
+    left: 10px;
+    position: absolute;
+}
+.left-ear--inner {
+    background-color:rgb(246, 185, 185);
+    border-radius: 90%;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+.right-ear--outer {
+    background-color:white;
+    border-radius: 90%;
+    width: 20px;
+    height: 50px;
+    right: 10px;
+    position: absolute;
+}
+.right-ear--inner {
+    background-color:rgb(246, 185, 185);
+    border-radius: 90%;
+    width: 10px;
+    height: 40px;
+    position: absolute;
+    top: 8px;
+    right: 15px;
+}
+.head {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    top: 30px;
+}
+.head__eye{
+     background-color: black;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 12px;
+    left: 30px;
+}
+.head__eye--left{
+    left: 45px;
+}
+.head__eye--right{
+    right: 40px;
+}
+.father-zig{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.father-zig:nth-child(1){
+    position: absolute;
+    z-index: 2;
+}
+.father-zig:nth-child(2){
+    position: absolute;
+    top: 15px;
+    z-index: 1;
+}
+.zigzag {
+    width: 20px;
+    height: 50px;
+    background: linear-gradient(-135deg, rgb(19, 128, 2) 50%,transparent 25%);
+}
+.zigzag-oposite {
+    width: 20px;
+    height: 50px;
+    background: linear-gradient(135deg, rgb(19, 128, 20) 50%,transparent 25%);
+}
+.zigzag-brown {
+    width: 20px;
+    height: 50px;
+    background: linear-gradient(-135deg, rgb(99, 55, 4) 45%, transparent 25%);
+}
+.zigzag-brown-oposite{
+    width: 20px;
+    height: 50px;
+    background: linear-gradient(135deg, rgb(99, 55, 4) 45%, transparent 25%);
+}
+.ball-1{
+    background-color: white;
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    top: -30%;
+    border-radius: 50%;
+}
+.ball-2{
+    background-color: white;
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    top: -40%;
+    right: 2px;
+    border-radius: 50%;
+}
+
+.ball-1-green{
+    background-color: rgb(11, 146, 9);
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: -40%;
+    right:0;
+    left: 0;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.ball-2-green{
+    background-color: rgb(11, 146, 9);
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: -20%;
+    right:0;
+    border-radius: 50%;
+}
+.ball-3-green{
+    background-color: rgb(11, 146, 9);
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: -10%;
+    left:0;
+    border-radius: 50%;
+}
